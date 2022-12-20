@@ -17,17 +17,28 @@ function App() {
         <section className="section">
           <div className="columns">
             <div className="column is-4">
-              <ProfileCard title="Alexa" handle="@alexa99" image={AlexaImage} />
+              <ProfileCard
+                title="Alexa"
+                handle="@alexa99"
+                image={AlexaImage}
+                description="Alexa was created by Amazon and helps you buy things."
+              />
             </div>
             <div className="column is-4">
               <ProfileCard
                 title="Cortana"
                 handle="@cortana95"
                 image={CortanaImage}
+                description="Cortana was made by Microsoft. Who knows what it does?"
               />
             </div>
             <div className="column is-4">
-              <ProfileCard title="Siri" handle="@siri77" image={SiriImage} />
+              <ProfileCard
+                title="Siri"
+                handle="@siri77"
+                image={SiriImage}
+                description="Siri was created by Apple and it's kind of abandoned nowadays."
+              />
             </div>
           </div>
         </section>
