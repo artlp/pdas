@@ -8,9 +8,11 @@ import "bulma/css/bulma.css";
 function App() {
   return (
     <div>
-      <header>
-        <h1>Personal Digital Assistants</h1>
-      </header>
+      <section className="hero is-primary">
+        <div className="hero-body">
+          <p className="title">Personal Digital Assistants</p>
+        </div>
+      </section>
       <div className="container">
         <section className="section">
           <div className="columns">
